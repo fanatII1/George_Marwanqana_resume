@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mandlenkosi Marwanqana</title>
+
+    <!-- CSS-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--BOOTSTRAP-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+    <!--FONT-AWESOME-->
+    <script
+      src="https://kit.fontawesome.com/1923f6977c.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    
+      <!--NAVBAR-->
+      <!--expand so that elements can stack on each other-->
+      <!--lg: when smaller than desktops, should make sure responsiveness is there-->
+
+      <nav id="navbar-main" class="navbar navbar-expand-lg">
+          <!--LOGO-->
+          <!--brand indicates the logo-->
+          <h6 id="logo-name">
+            <a href="#" class="navbar-brand">MANDLA MARWANQANA</a>
+          </h6>
+          
+          <!--Toggler button-->
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navCollapse" style="color: orange" aria-expanded="false">
+            <i class="fa fa-bars"></i>
+          </button>
+
+           <!--links to sections of the webpage-->
+           <!--collapse to indicate a collapsible element(show/hide with the click of a button)-->
+           <!--navbar-nav to add links inside a navbar-->
+           <!--jsutify content end-->
+          <div class="collapse navbar-collapse justify-content-end" id="navCollapse">
+              <ul class="navbar-nav">
+                  <li class="nav-item"><a href="#Home" class="link-item">Home</a></li>
+                  <li class="nav-item"><a href="#About-section" class="link-item">About</a></li>
+                  <li class="nav-item"><a href="#Education-section" class="link-item">Education</a></li>
+                  <li class="nav-item"><a href="#Projects-section" class="link-item">Projects</a></li>
+                  <li class="nav-item"><a href="#Contacts-section" class="link-item">Contacts</a></li>
+              </ul>
+          </div>
+      </nav>
+
+
+
+      <!--First About Me Section-->
+      <section id="About-section">
+          <div class="container-fluid px-0 mx-0">
+              <div class="row no-gutters" id="about-me-row">
+
+                <!--Image of myself-->
+                <div class="col-lg-3">
+                    <img src="../Images/PicsArt_01-23-07.50.59.jpg" alt="myself">
+                </div>
+                
+                <div class="col-lg-9 px-0">
+                    <div id="intro-description">
+                        <h5 class="intro-description-heading">HI, I'M MANDLENKOSI</h5>
+                        <h5 class="intro-description-heading" style="color:white;">MARWANQANA</h5>
+                        <p class="intro-text">A Fullstack Web Developer</p>
+                        <p class="into-text creative-eye" style="color:white;">I craft and structure website and Web Apps. </p>
+                        <!--hire button-->
+                        <button id="hire-me"><a href="mailto: georgemarwanqana@gmail.com" style="text-decoration: none; color:#44cbc5;">Contact Me</a></button>
+                    </div>
+                </div>
+
+              </div>
+          </div>
+      </section>
+
+      <!--Social Links-->
+      <section id="Social-links-section">
+        <div class="container-fluid">
+
+          <div class="row links-row clearfix">
+            <div class="col-4 link-1">
+             <a href="https://www.instagram.com/fanat_ii/" class="icon"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="col-4 link-2">
+             <a href="https://www.facebook.com/profile.php?id=100062043014647" class="icon"> <i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <div class="col-4 link-3">
+            <a href="https://www.linkedin.com/in/mandlenkosi-marwanqana-b08357218/" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+
+      <!--Education Section-->
+      <section id="Education-section">
+        <div class="container-fluid education-wrapper">
+
+          <!--education row-->
+          <div class="row education-row">
+            <div class="col-lg-12 education-column">
+              <div class="education-head">
+                <h5 id="about-heading">ABOUT</h5>
+                <span></span>
+              </div>
+      
+              <p id="educational-paragraph-1">
+                Born and raised in South Africa, I discovered my love for tech in 2020 during the pandemic lockdown.
+                Without being sure on what to go into, i decided to learn C++ and JAVA, for game development. 
+                But as time went by I discovered Fullstack Development, and immediately made a decision that 'this is what i have been looking for'.
+                I never turned my back ever since.
+              </p>
+      
+              <p id="educational-paragraph-2">
+                I then decided to learn HTML, CSS, JS solo.
+                After some few basic projects, I decided to enroll into Hyperion Development bootcamp for fullstack web development course.
+              </p>
+
+              <p id="educational-paragraph-3">
+                Throught the course, so far i have learnt some HTML, CSS, Javascript.
+                The Bootstrap libray, along with the Git version control system,
+                in parallel to its hosting service, GitHub
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!--Projects Section-->
+      <section id="Projects-section">
+        <div class="container-fluid project-wrapper">
+          <div class="row project-row">
+            <!--Online store images-->
+            <div class="projects-head">
+              <h5 id="projects-heading">PROJECTS</h5>
+              <span></span>
+            </div>
+
+           <div id="project-description">
+              <p>Built an online store from scratch. With a functioning cart</p>
+           </div>
+
+            
+            <div class="row nested">
+
+              <div class="col-lg-6 project-column-1">
+                <div id="online-store-homepage-img">
+                  <img class="store-img" src="../Images/Homepage-image.png" alt="homepage-img">
+                </div>
+              </div>
+  
+              <div class="col-lg-6 project-column-2">
+                <div id="online-store-catalogue-img">
+                  <img class="store-img" src="../Images/Catalogue-image.png" alt="catalogue-img">
+                </div>
+
+            </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+
+      <footer id="footer">
+        <div class="container-fluid">
+          <div class="row">
+
+            <!--CONTACTS COLUMN-->
+            <div class="col-lg-12 footer-column">
+              <h5>CONTACT ME</h5>
+              <ul class="contact-list">
+                <li>
+                  <a href="tel:(+27) 78 290 5548" class="call-number"
+                    >(+27) 78 551 7023</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:georgemarwanqana.com" class="email">Mandlenkosi Marwanqana</a>
+                </li>
+                <li><a href="#" class="rights">MandlenkosiMarwanqana © 2022All rights reserved.</a></li>
+              </ul>
+            </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+
+    <script src="App.js"></script>
+  </body>
+</html>
